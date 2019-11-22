@@ -1,0 +1,20 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+<category>
+	<pattern>UNIVERSITY CHENCELLOR</pattern>
+	<template>The current university Chancellor is Dr. Peter Wanyaga Muthoka</template>
+</category>
+
+
+<category>
+	<pattern>UNIVERSITY VICE-CHENCELLOR</pattern>
+	<template>The current university Vice-Chancellor is Prof. Jeseph Bosire.</template>
+</category>
+
+
+<category>
+	<pattern> DEPUTY VICE-CHENCELLOR ACADEMIC AFFAIRS</pattern>
+	<template>The current Vice-Chancellor academic affairs is...</template>
+</category>
+</aiml>
