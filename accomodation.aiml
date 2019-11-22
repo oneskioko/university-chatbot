@@ -1,0 +1,47 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	<!-- This file contains details about the state of university accomodation!! -->
+	<category>
+		<pattern>ACCOMODATION</pattern>
+		<template>The university has 4 hostels, 2 for men and 2 for ladies. The hostels are assigned on first come first served bases.
+			The students who are not housed within the university premises are advised to secure accomodation from outside.</template>
+	</category>
+	<category>
+		<pattern>CHARGES</pattern>
+		<template>Both Hall 1(Ladies') and Hall2(Men's) are charged ksh.5,000 per semester; Hall 3(Mens') and Hall4(Men's and ladies') charge Ksh. 8,000 per semester.</template>
+	</category>
+	<category>
+	<pattern>HOW MUCH ARE THE HOSTELS</pattern>
+		<template><srai>CHARGES</srai></template>
+	</category>
+	<category>
+	<pattern>WHAT ARE THE HOSTEL CHARGES INSIDE SCHOOL</pattern>
+		<template><srai>CHARGES</srai></template>
+	</category>
+ 
+	<category>
+	<pattern>*_ACCOMODSTION AVAILABLE</pattern>
+		<template><srai>ACCOMODATION</srai></template>
+	</category>
+	<category>
+	<pattern>DOES THE SCHOOL OFFER ACCOMODATION</pattern>
+		<template><srai>ACCOMODATION</srai></template>
+	</category>
+	<pattern>DOES THE SCHOOL HAVE ACCOMODATION</pattern>
+		<template><srai>ACCOMODATION</srai></template>
+	</category>
+	<pattern>DOES THE SCHOOL PROVIDE ACCOMODATION</pattern>
+		<template><srai>ACCOMODATION</srai></template>
+	</category>
+	<pattern>DO YOU OFFER ACCOMODATION INSIDE THE SCHOOL</pattern>
+		<template><srai>ACCOMODATION</srai></template>
+	</category>
+	<pattern> _ ACCOMODATION</pattern>
+		<template><srai>ACCOMODATION</srai></template>
+	</category>
+	<pattern>HOW MANY HOSTELS DOES THE SCHOOL HAS</pattern>
+		<template><srai>ACCOMODATION</srai></template>
+	</category>
+	<pattern>HOW MANY HOSTELS DOES THE SCHOOL HAVE</pattern>
+		<template><srai>ACCOMODATION</srai></template>
+	</category>
+</aiml>
