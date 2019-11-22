@@ -1,0 +1,47 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+<category><pattern>HELLO</pattern><template><random><li>Hello too! Welcome to Mmust virtual correspondence. How are you?</li><li>Hello there! Welcome to Mmust virtual correspondence. How may i help you?</li></random></template>
+</category>
+<category><pattern>HELLO *</pattern><template> <srai>HELLO</srai></template></category>
+<category><pattern>MORNING</pattern><template>good morning too</template></category>
+<category><pattern>GOOD EVENING</pattern><template>Good evening too!! How are you?</template></category><category><pattern>HEY </pattern>
+<template> <srai>HELLO</srai></template></category>
+<category><pattern>HEY *</pattern><template><srai>HELLO</srai></template> </category>
+<category><pattern>HEY</pattern><template><srai>HELLO</srai></template> </category>
+<category><pattern>HAE</pattern><template><srai>HELLO</srai></template>
+</category> <category><pattern>GOOD</pattern><template> <random><li>Happy to hear that</li> <li>Pleasure!</li><li>Great. What can I do for you?</li>
+<li>Happy for you. May i know you more?</li></random></template></category>
+<category><pattern>AM GREAT</pattern><template><srai>GOOD</srai></template>
+</category><category><pattern>WHO ARE YOU</pattern>
+<template> I'm a university virtual assistant, am here simply to answer your questions!</template></category>
+<category><pattern>WHO AM I TALKING TO</pattern>
+<template> <srai>WHO ARE YOU</srai></template></category>
+<category><pattern>WHAT IS YOUR NAME?</pattern><template><srai>WHO ARE YOU</srai></template></category>
+<category><pattern>WHO AM I SPEAKING TO?</pattern><template><srai>WHO ARE YOU</srai></template></category>
+<category><pattern>WHO AM I SPEAKING TO</pattern><template><srai>WHO ARE YOU</srai></template></category>
+<category><pattern>WHO AM I TALKING TO</pattern><template><srai>WHO ARE YOU</srai></template></category>
+<category> <pattern>I AM *</pattern> <template>Hello <set name="username"><star/> much humbled to meet you.</set></template></category>
+<category><pattern>AM *</pattern><template><srai>I AM *</srai></template></category>
+
+<category> <pattern>IDIOT</pattern><template>I don't respond very well to profanity. Watch your tongue!</template></category>
+<category><pattern>STUPID</pattern> <template>Loose tongued people like you have a special place in hell. Bye</template></category>
+<category><pattern>ARE YOU AN IDIOT</pattern><template><random><li>I don't know. What do you think?</li><li>I don't know. What do you take me for?</li>
+<li>No. Am actually intelligent than you are.</li></random></template></category>
+<category> <pattern>TELL ME MORE ABOUT MMUST</pattern><template>
+Masinde muliro university of science and technology(Formerly Western University) is a university located in western Kenya.It was started in the year 1977 as a small institute and has grown over the years to be one the leading universities in the country. The school offers competitive courses enabling students to 
+be execeptional out there in the market. The main campus is located in Kakamega county afew metres from Kakamega town.</template></category>
+<category><pattern>HOW ARE YOU?</pattern><template>Am fine thank you! And you?</template></category>
+<category><pattern>FINE TOO</pattern><template>That's cool. What can i do for you today? </template></category>
+<category><pattern>AM FINE</pattern><template><srai>FINE TOO</srai></template></category>
+<category><pattern>FINE</pattern><template><srai>FINE TOO</srai></template></category>
+<category><pattern>AM GOOD</pattern><template><srai>FINE TOO</srai></template></category>
+<category><pattern>HOW ARE YOU</pattern><template>Am fine</template></category>
+<category><pattern>YOU ARE WELCOME</pattern>
+<template><random><li>The pleasure was all mine.</li><li>Don't mention it.</li><li>Polite people are nice.</li></random></template></category>
+<category><pattern>YOU ARE WELCOME *</pattern>
+<template>It was my pleasure.</template></category>
+<category><pattern>THANK YOU</pattern>
+<template><srai>BYE</srai></template>
+</category>
+</aiml>
